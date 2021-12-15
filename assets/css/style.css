@@ -1,56 +1,56 @@
-html{
-    box-sizing: border-box;
-}
-
 *{
     font-family: Arial, Helvetica, sans-serif;
     margin: 1rem auto;
-    
 }
+
 body{
-    background-color: black;
-    color: white;
-}
-
-header {
     width: 100%;
-    height: 150px;
-    background-color: black;
+    position: relative;
+    flex-flow: row wrap;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(38,40,40,1) 25%, rgba(65,66,66,1) 94%);
     color: white;
 }
 
-header.h1 {
+/* remove overflow if items not aligning well */
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    flex-flow: column nowrap;
+    width: 20%;
+    height: 100%;
+}
+
+.ul {
+    list-style-type: none;
+    flex-flow: column nowrap;
+    display: block;
     justify-content: flex-start;
-    align-content: center;
-
-}
-
-ul {
-    text-align: right;
+    text-align: center;
     color: white;
-    justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+
 }
 
-li {
-  display: inline;
-  list-style-type: none;
-  font-size: 1.5rem;
-  
+section{ 
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-items: flex-end;
+    width: 70%;
 }
 
-section {
-    width: 50%;
-    display: flex;
-    justify-content: center;
+h1, h2, h3, h4, h5 {
+    width: 70%;
+    justify-items: flex-end;
     margin: 20 auto pink;
     padding: 20px 40px;
     border: 10px solid pink;
     background-color: rgb(80, 8, 248);
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
   }
 
-  footer {
+footer {
     width: 100%;
     /* Sets display to block */
     display:flex;
@@ -63,27 +63,15 @@ section {
     flex-flow: row wrap;
   }
 
-figure {
-  width: 200px;
-  background-color: #f0ead6;
-}    
-
-h1{
-    text-align: left;
-}
-
-
 body{
         font-size:1.5rem
 }
 
-section h1{
-    font-size: 2rem bolder;
-    justify-content: center;
-}
-
-
 /* CLASSES */
+.img-sec{
+    background: none;
+    border: none;
+}
 
 .eb-image{
     height: 200px;
@@ -91,4 +79,18 @@ section h1{
     object-fit: contain;
     display: block;
 }
+
+.eb-logo{
+    width: 100%;
+    height: auto;
+}
+
+.eugenio {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
+
 
