@@ -38,6 +38,10 @@ a{
     background-color: white;
 }
 
+.c-black {
+    color: black;
+}
+
 .c-white{
     color: white;
 }
@@ -175,6 +179,8 @@ a{
     width:100%
 }
 
+
+
 /* ICON CLASSES */
 
 .fa {
@@ -224,11 +230,3 @@ a{
         margin-left: 1.5rem;
     }
 }
-
-
-
-
-<!-- IMAGE -->
-<div class="ai-center bcg-white display-flex jc-center pad-15">
-    <img class="w-40" src="./assets/img/IMG_7431.jpeg">  
-</div>
