@@ -29,7 +29,7 @@ LANGUAGE:
 
 SCREENSHOT:
 
-    (./assets/images/)
+    (./assets/img/portfolio-screenshot.png)
 
 
 LINKS:
