@@ -10,6 +10,8 @@ html {
 body {
     font-family: oswald;
     margin: 0 auto;
+    font-size: 1.4rem;
+    line-height: 2em;
     }
 
 a{
@@ -130,6 +132,10 @@ a{
     margin: 0;
 }
 
+.mar-bttm{
+    margin-bottom: 1.5rem;
+}
+
 .mar-left {
     margin-left: 1.5rem;
 }
@@ -179,7 +185,11 @@ a{
     width:100%
 }
 
+/* HOVER CLASS NAV BAR */
 
+.menu-item:hover {
+    opacity: 0.5;
+}
 
 /* ICON CLASSES */
 
@@ -222,11 +232,13 @@ a{
     .flex-grow1\@lrg {
         flex-grow: 1;
 }
-
     .flex-grow3\@lrg{
         flex-grow: 3;
-}            
+}    
     .mar-left\@lrg{
         margin-left: 1.5rem;
-    }
 }
+    .mar-bttm\@lrg {
+        margin-bottom: 0;
+    }
+   }

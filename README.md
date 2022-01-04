@@ -29,13 +29,13 @@ LANGUAGE:
 
 SCREENSHOT:
 
-    (./assets/img/portfolio-screenshot.png)
+![Screenshot of project](./assets/img/portfolio-screenshot.png)
 
 
 LINKS:
 
-    Repo : https://github.com/eugenio18/hw2.git
-    Pages: https://eugenio18.github.io/hw2/
+    Repo : [](https://github.com/eugenio18/hw2.git)
+    Pages: [](https://eugenio18.github.io/hw2/)
  
 
 HOW TO CONTRIBUTE:
